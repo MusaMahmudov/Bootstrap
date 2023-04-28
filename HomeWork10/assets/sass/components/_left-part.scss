@@ -1,0 +1,108 @@
+.container-left {
+  width: 30%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  &-items {
+    margin-bottom: 10px;
+    line-height: 10%;
+  }
+  & i {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .container-left {
+    &-items {
+      margin-bottom: 25px;
+      line-height: 15%;
+      & h1 {
+        font-size: 40px;
+      }
+      & p {
+        font-size: 32px;
+      }
+    }
+
+    & i {
+      font-size: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .container-left {
+    &-items {
+      margin-bottom: 7px;
+      line-height: 7%;
+      & h1 {
+        font-size: 20px;
+      }
+      & p {
+        font-size: 10px;
+      }
+    }
+
+    & i {
+      font-size: 20px;
+    }
+  }
+}
+@media screen and (max-width: 850px) {
+  .container-left {
+    &-items {
+      margin-bottom: 5px;
+      line-height: 5%;
+      & h1 {
+        font-size: 14px;
+      }
+      & p {
+        font-size: 7px;
+      }
+    }
+
+    & i {
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .container-left {
+    margin-top: 5px;
+    &-items {
+      line-height: 5%;
+      & h1 {
+        font-size: 14px;
+      }
+      & p {
+        font-size: 7px;
+      }
+    }
+
+    & i {
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  .container-left {
+    margin-top: 3px;
+    &-items {
+      line-height: 3%;
+      & h1 {
+        font-size: 9px;
+      }
+      & p {
+        font-size: 5px;
+      }
+    }
+
+    & i {
+      font-size: 9px;
+    }
+  }
+}

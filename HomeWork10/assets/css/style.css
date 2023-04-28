@@ -1,0 +1,289 @@
+body {
+  background: aqua;
+}
+
+.container {
+  background: white;
+  width: 80%;
+  height: 400px;
+  margin: 100px auto;
+  display: flex;
+}
+
+@media screen and (min-width: 1900px) {
+  .container {
+    height: 800px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .container {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .container {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+  }
+}
+.container-left {
+  width: 30%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.container-left-items {
+  margin-bottom: 10px;
+  line-height: 10%;
+}
+.container-left i {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 1900px) {
+  .container-left-items {
+    margin-bottom: 25px;
+    line-height: 15%;
+  }
+  .container-left-items h1 {
+    font-size: 40px;
+  }
+  .container-left-items p {
+    font-size: 32px;
+  }
+  .container-left i {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .container-left-items {
+    margin-bottom: 7px;
+    line-height: 7%;
+  }
+  .container-left-items h1 {
+    font-size: 20px;
+  }
+  .container-left-items p {
+    font-size: 10px;
+  }
+  .container-left i {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .container-left-items {
+    margin-bottom: 5px;
+    line-height: 5%;
+  }
+  .container-left-items h1 {
+    font-size: 14px;
+  }
+  .container-left-items p {
+    font-size: 7px;
+  }
+  .container-left i {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container-left {
+    margin-top: 5px;
+  }
+  .container-left-items {
+    line-height: 5%;
+  }
+  .container-left-items h1 {
+    font-size: 14px;
+  }
+  .container-left-items p {
+    font-size: 7px;
+  }
+  .container-left i {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container-left {
+    margin-top: 3px;
+  }
+  .container-left-items {
+    line-height: 3%;
+  }
+  .container-left-items h1 {
+    font-size: 9px;
+  }
+  .container-left-items p {
+    font-size: 5px;
+  }
+  .container-left i {
+    font-size: 9px;
+  }
+}
+.container-right {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-right form {
+  width: 80%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.container-right form h2 {
+  margin-bottom: 0px;
+}
+.container-right form p {
+  margin-top: 5px;
+}
+.container-right form textarea {
+  height: 25%;
+  padding: 10px;
+  resize: none;
+  border: none;
+  border-radius: 10px;
+  background: aqua;
+}
+.container-right form input {
+  margin-bottom: 12px;
+}
+.container-right form input[type=text] {
+  background: aqua;
+  height: 5%;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+}
+.container-right form input[type=submit] {
+  height: 8%;
+  width: 15%;
+  background: darkmagenta;
+  margin-top: 8px;
+  border-radius: 5px;
+  color: white;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 1900px) {
+  .container-right form textarea {
+    font-size: 20px;
+    border-radius: 12px;
+  }
+  .container-right form input {
+    margin-bottom: 18px;
+  }
+  .container-right form input[type=text] {
+    font-size: 20px;
+    border-radius: 12px;
+  }
+  .container-right form input[type=submit] {
+    font-size: 20px;
+    border-radius: 12px;
+  }
+  .container-right form h2 {
+    font-size: 50px;
+  }
+  .container-right form p {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .container-right form textarea {
+    font-size: 10px;
+    padding: 7px;
+  }
+  .container-right form input {
+    margin-bottom: 8px;
+  }
+  .container-right form input[type=text] {
+    font-size: 10px;
+  }
+  .container-right form input[type=submit] {
+    font-size: 10px;
+  }
+  .container-right form h2 {
+    font-size: 20px;
+  }
+  .container-right form p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .container-right form textarea {
+    font-size: 7px;
+    padding: 5px;
+  }
+  .container-right form input {
+    margin-bottom: 6px;
+  }
+  .container-right form input[type=text] {
+    font-size: 8px;
+  }
+  .container-right form input[type=submit] {
+    font-size: 8px;
+  }
+  .container-right form h2 {
+    font-size: 15px;
+  }
+  .container-right form p {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container-right form textarea {
+    font-size: 7px;
+    padding: 5px;
+  }
+  .container-right form input {
+    margin-bottom: 6px;
+  }
+  .container-right form input[type=text] {
+    font-size: 8px;
+  }
+  .container-right form input[type=submit] {
+    font-size: 8px;
+    width: 50%;
+  }
+  .container-right form h2 {
+    font-size: 15px;
+  }
+  .container-right form p {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container-right form textarea {
+    font-size: 4px;
+    padding: 3px;
+    border-radius: 4px;
+  }
+  .container-right form input {
+    margin-bottom: 4px;
+  }
+  .container-right form input[type=text] {
+    font-size: 5px;
+    border-radius: 3px;
+  }
+  .container-right form input[type=submit] {
+    font-size: 3.5px;
+    width: 45%;
+  }
+  .container-right form h2 {
+    font-size: 10px;
+  }
+  .container-right form p {
+    font-size: 5px;
+  }
+}/*# sourceMappingURL=style.css.map */
