@@ -1,0 +1,33 @@
+.container-address {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  i {
+    color: darkblue;
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  h1 {
+    margin: 2px 0;
+    font-size: 20px;
+  }
+  p {
+    margin: 2px 0;
+    font-size: 16px;
+  }
+  &-items {
+    flex-direction: column;
+    margin: 15px 0px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .container-address {
+    width: 90%;
+  }
+}

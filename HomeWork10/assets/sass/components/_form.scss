@@ -1,0 +1,63 @@
+.container-form {
+  width: 75%;
+  height: 100%;
+}
+.container-form-all {
+  height: 97%;
+  width: 92%;
+  padding: 5px 36px;
+  input {
+    margin-top: 15px;
+    width: 98.7%;
+    padding: 15px;
+    border: none;
+    background: aqua;
+  }
+  textarea {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: aqua;
+    resize: none;
+  }
+  button {
+    background: darkblue;
+    border-radius: 4px;
+    font-size: 15px;
+    height: 35px;
+    width: 110px;
+    color: white;
+    margin-top: 25px;
+  }
+}
+
+h2 {
+  margin: 2px 0px;
+  font-size: 25px;
+  color: darkblue;
+}
+p {
+  font-size: 20px;
+  margin: 2px 0px;
+}
+
+@media screen and (max-width: 950px) {
+  .container-form {
+    width: 90%;
+  }
+  input {
+    max-width: 660px;
+  }
+  button {
+    margin-top: 10px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  input {
+    width: 70% !important;
+  }
+  textarea {
+    width: 74% !important ;
+  }
+}
